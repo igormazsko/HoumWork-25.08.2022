@@ -55,17 +55,3 @@ void PrintMatrixArray(int [,] inArray)
     }
 }
 
-// Метод нахождения среднего арифметического в столбце и записи их в строку
-// void ArethmeticMeanColumn(int[,] arr)
-// {
-//     for (int i=0; i<arr.GetLength(1); i++)
-//     {
-//         double sum = 0;
-//         for(int j=0; j<arr.GetLength(0); j++)
-//         {
-//         sum += arr[i.j];
-//         }
-//         double average = Math.Round(sum / (arr.GetLength(0)+1));
-//         WriteLine($"Среднее арифметическое столбца № {i+1} {average}")
-//     } 
-// }
